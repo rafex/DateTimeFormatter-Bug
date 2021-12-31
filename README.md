@@ -19,5 +19,6 @@ o/or
 ./mvnw test
 ```
 
+![WeekFields](WeekFields.png "WeekFields")
 
 ![Bug #Java DateTimeFormatter](bug.png "Bug Java DateTimeFormatter")
