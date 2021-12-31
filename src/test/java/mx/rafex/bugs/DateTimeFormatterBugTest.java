@@ -29,7 +29,7 @@ public class DateTimeFormatterBugTest {
         LOGGER.info(date);
         LOGGER.info(result);
         
-        Assertions.assertEquals(localDate.format(IDateTimeFormatterBug.DATE_FORMATTER), result);
+        Assertions.assertEquals(result,localDate.format(IDateTimeFormatterBug.DATE_FORMATTER));
         
     }
 }
