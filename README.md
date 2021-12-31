@@ -1,4 +1,4 @@
-#Bug Java 
+#Bug Java DateTimeFormatter
 
 Hoy encontré un bug muy raro en #java la fecha del 2021-12-26 si usa un format YYYYMMdd la pasa a 20221226. Y solo pasa con los días 26, 27, 28, 29, 30 y 31 De diciembre de este año 2021
 
@@ -18,3 +18,6 @@ o/or
 ```Shell
 ./mvnw test
 ```
+
+
+![Bug #Java DateTimeFormatter](bug.png "Bug Java DateTimeFormatter")
